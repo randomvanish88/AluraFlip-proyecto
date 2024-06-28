@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7a3a3;
+    background-image: url(3W15.gif); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #310f0f00;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1;
+    margin: 0; 
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(22, 84, 198);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+mark {
+    background-color: rgb(95, 101, 184);
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+#parrafoCentrado {
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 15px 10px 10px rgba(12, 11, 11, 0.945)
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 0px;
+    font-size: 60px;
+    color: rgb(196, 195, 229);
+    background-color: rgb(22, 22, 106);
+    text-shadow: 20px 10px 10px rgba(17, 5, 185, 0.945);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.titulo-secundario {
+    text-align: center;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*
+    background-image: repeating-linear-gradient(36deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0.1) 1px, transparent 0px, transparent 2px);
+    background-color: rgb(0, 0, 58);
+    color: rgb(196, 195, 229);
+    */
+    color: rgb(30, 30, 119);
+}
+
+.servicios {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.titulo_servicios {
+    color: rgb(196, 195, 229);
+    background-color: rgb(22, 22, 181);
+    padding: 2%;
+    border-radius: 15px;
+
+}
+
+.card:hover {
+    box-shadow: 50px 30px 20px 10px rgba(2, 41, 235, 0.2);
+}
+  
+.card_container {
+    display:flex;
+    flex-wrap:wrap;
+    padding: 9%;
+    border:1%;
+    justify-content:space-between;
+    margin-right: 10px;
+    margin: 5px;
+}
+.hr {
+    height: 10px;
+    width: 50%;
+    background-color:rgb(9, 130, 243); 
+}
+
+.card {
+    text-decoration: underline;
+}
+
+.listaspagina1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.lista2{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Parrafo1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.parrafo2 {
+    font-size: 20px;
+}
+
+#screenshot_img {
+    display:flex;
+    flex-wrap:wrap;
+    padding: 5%;
+    border:1%;
+    justify-content:space-between;
+    margin-right: 20px;
+    margin: 10px;
+}
+
+
+.parrafo3 {
+    text-decoration: underline;
+    font-weight: 1500;
+}
+
+.lista1 {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/* Estilos para el formulario */
+#formulario {
+    padding: 1px;
+    background-color: #75747400;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width:400px;
+    margin: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #595757; 
+    color: white; 
+    padding: 3px 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
